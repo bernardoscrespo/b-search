@@ -5,16 +5,19 @@ let numeroSecreto = numeroAleatorio();
 let tentativas = 1;
 
 function exibirTextoNaTela(tag, texto) {
-    let campo = document.querySelector(tag);
+    let campo = document.getElementById(tag);
     campo.innerHTML = texto;
 }
 
 function exibirMensagemInicial() {
-    exibirTextoNaTela('h1', `B-Search`);
-    exibirTextoNaTela('p', `Escolha um número entre 1 e ${numeroMaximo}`);
+    exibirTextoNaTela('head', `B-Search`);
+    exibirTextoNaTela('textoInicial', `Escolha um número entre 1 e ${numeroMaximo}`);
 }
 exibirMensagemInicial();
 
+function regras() {
+    exibirTextoNaTela('regras', 'wasd')
+}
 
 function numeroAleatorio() {
     let numeroEscolhido =  parseInt(Math.random() * numeroMaximo + 1);
@@ -33,8 +36,8 @@ function numeroAleatorio() {
 }
 
 function msgMaiorOuMenor(maiorOuMenor) {
-    exibirTextoNaTela('h1', `Quase lá! Tentativa N°${tentativas}`);
-    exibirTextoNaTela('p', `O número secreto é ${maiorOuMenor} que ${chute}.`);
+    exibirTextoNaTela('head', `Quase lá! Tentativa N°${tentativas}`);
+    exibirTextoNaTela('textoInicial', `O número secreto é ${maiorOuMenor} que ${chute}.`);
 }
 
 function botaoChute() {
@@ -42,8 +45,8 @@ function botaoChute() {
     if (chute == numeroSecreto) {
         let palavraTentativas = tentativas > 1 ? 'tentativas' : 'tentativa';
         let mensagemTentativas = `Você acertou o número secreto em ${tentativas} ${palavraTentativas}!`;
-        exibirTextoNaTela('h1', 'Parabéns!');
-        exibirTextoNaTela('p', mensagemTentativas);
+        exibirTextoNaTela('head', 'Parabéns!');
+        exibirTextoNaTela('textoInicial', mensagemTentativas);
         document.getElementById('reiniciar').removeAttribute('disabled');
         document.getElementById('chute').setAttribute('disabled', true);
     } else {
@@ -70,4 +73,3 @@ function limparCampo() {
     chute = document.querySelector('input');
     chute.value = '';
 }
-
