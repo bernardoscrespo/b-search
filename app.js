@@ -17,7 +17,7 @@ exibirMensagemInicial();
 
 function regras() {
     exibirTextoNaTela('headRegras', 'Regras do jogo:');
-    exibirTextoNaTela('regras', `1 - O objetivo do jogo é adivinhar o número secreto, de 1 a ${numeroMaximo}<br>2 - A cada novo jogo, um número novo é sorteado, e ele nunca vai ser igual a nenhum número sorteado anteriormente`)
+    exibirTextoNaTela('regras', `1 - O objetivo do jogo é adivinhar o número secreto, de 1 a ${numeroMaximo}<br>2 - A cada novo jogo, um número novo é sorteado, e ele nunca vai ser igual a nenhum número sorteado anteriormente<br>3 - Se divirta!`)
 }
 regras();
 
