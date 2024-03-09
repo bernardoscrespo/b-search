@@ -87,7 +87,9 @@ body::before {
 
 .container__botoes {
     display: flex;
+    flex-direction: column;
     gap: 2em;
+    align-items: center;
 }
 
 h1 {
@@ -104,6 +106,7 @@ button {
 .texto__paragrafo {
     font-size: 32px;
     font-weight: 400;
+    margin-top: 20px;
 }
 
 button:disabled {
