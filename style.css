@@ -87,6 +87,7 @@ body::before {
 
 .container__botoes {
     display: flex;
+    flex-direction: row;
     gap: 2em;
     align-items: center;
 }
