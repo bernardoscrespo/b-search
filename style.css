@@ -138,6 +138,8 @@ button:disabled {
 
     .texto__paragrafo {
         font-size: 12px;
+        margin-top: 0rem;
+        margin-bottom: 0.5rem;
     }
 
     .container__imagem-pessoa {
@@ -145,7 +147,7 @@ button:disabled {
         width: 75%;
         height: auto;
         margin-top: 0px;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
         text-align: center;
     }
 
