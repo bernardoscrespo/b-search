@@ -1,5 +1,6 @@
 let listaDeNumerosEscolhidos = [];
 let numeroMaximo = 10;
+let chute;
 let numeroSecreto = numeroAleatorio();
 let tentativas = 1;
 
@@ -34,7 +35,7 @@ function numeroAleatorio() {
 
 
 function botaoChute() {
-    let chute = document.querySelector('input').value;
+    chute = document.querySelector('input').value;
     if (chute == numeroSecreto) {
         let palavraTentativas = tentativas > 1 ? 'tentativas' : 'tentativa';
         let mensagemTentativas = `Você acertou o número secreto em ${tentativas} ${palavraTentativas}!`;
