@@ -135,6 +135,7 @@ button:disabled {
     }
 
     .container__imagem-pessoa {
+        width: 50%;
         display: none;
     }
 
