@@ -16,7 +16,7 @@ function exibirMensagemInicial() {
 exibirMensagemInicial();
 
 function regras() {
-    exibirTextoNaTela('regras', 'As regras do jogo são: 1- Tente adivinhar o número que o computador gerou;');
+    exibirTextoNaTela('headRegras', 'Regras do\njogo:');
 }
 regras();
 
