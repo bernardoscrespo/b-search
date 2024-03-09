@@ -16,8 +16,9 @@ function exibirMensagemInicial() {
 exibirMensagemInicial();
 
 function regras() {
-    exibirTextoNaTela('regras', 'wasd')
+    exibirTextoNaTela('regras', 'wasd');
 }
+regras();
 
 function numeroAleatorio() {
     let numeroEscolhido =  parseInt(Math.random() * numeroMaximo + 1);
