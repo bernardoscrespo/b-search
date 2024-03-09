@@ -32,7 +32,10 @@ function numeroAleatorio() {
     }
 }
 
-
+function msgMaiorOuMenor(maiorOuMenor) {
+    exibirTextoNaTela('h1', `Quase lá! Tentativa N°${tentativas}`);
+    exibirTextoNaTela('p', `O número secreto é ${maiorOuMenor} que ${chute}.`);
+}
 
 function botaoChute() {
     chute = document.querySelector('input').value;
@@ -68,7 +71,3 @@ function limparCampo() {
     chute.value = '';
 }
 
-function msgMaiorOuMenor(maiorOuMenor) {
-    exibirTextoNaTela('h1', `Quase lá! Tentativa N°${tentativas}`);
-    exibirTextoNaTela('p', `O número secreto é ${maiorOuMenor} que ${chute}.`);
-}
