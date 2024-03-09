@@ -50,7 +50,7 @@ body::before {
 
 .container__informacoes {
     flex: 1;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .container__botao {
@@ -122,21 +122,22 @@ button:disabled {
 @media screen and (max-width: 1250px) {
 
     h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .container__botao {
         font-size: 16px;
+        padding: 10px 16px;
     }
 
 
     .texto__paragrafo {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .container__imagem-pessoa {
         width: 20%;
-        height: 280px;
+        height: 200px;
         display: none;
     }
 
