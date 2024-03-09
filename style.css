@@ -50,7 +50,7 @@ body::before {
 
 .container__informacoes {
     flex: 1;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .container__botao {
@@ -65,7 +65,12 @@ body::before {
 }
 
 .container__texto {
-    margin: 8px 0;
+    margin: 12px 0;
+}
+
+.container__imagem-pessoa {
+    width: 40%;
+    height: auto;
 }
 
 .container__texto-azul {
@@ -95,13 +100,13 @@ body::before {
 h1 {
     font-family: 'Chakra Petch', sans-serif;
     font-size: 36px;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 h2 {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 p,
@@ -136,9 +141,10 @@ button:disabled {
     }
 
     .container__imagem-pessoa {
-        width: 20%;
-        height: 200px;
-        display: none;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 1rem;
     }
 
     .container__conteudo {
@@ -147,6 +153,7 @@ button:disabled {
     }
 
     .container__informacoes {
-        padding: 1rem
+        padding: 2rem;
+        text-align: center;
     }
 }
