@@ -157,8 +157,8 @@ button:disabled {
     }
 
     .container__input {
-    width: auto;
-    height: 60%;
+    width: 100%;
+    height: 42px;
     border-radius: 16px;
     background-color: #FFF;
     border: none;
