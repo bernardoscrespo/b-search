@@ -44,9 +44,9 @@ function botaoChute() {
         document.getElementById('chute').setAttribute('disabled', true);
     } else {
         if (chute > numeroSecreto) {
-            msgMaiorOuMenor('maior');        
+            msgMaiorOuMenor('menor');        
         } else {
-            msgMaiorOuMenor('menor');
+            msgMaiorOuMenor('maior');
         }
         tentativas++;
         limparCampo();
@@ -69,5 +69,5 @@ function limparCampo() {
 
 function msgMaiorOuMenor(maiorOuMenor) {
     exibirTextoNaTela('h1', `Quase lá! Tentativa N°${tentativas}`);
-    exibirTextoNaTela('p', `O número que você chutou é ${maiorOuMenor} que o número secreto.`);
+    exibirTextoNaTela('p', `O número secreto é ${maiorOuMenor} que ${chute}.`);
 }
