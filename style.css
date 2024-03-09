@@ -142,9 +142,10 @@ button:disabled {
 
     .container__imagem-pessoa {
         display: block;
-        width: 50%;
+        width: 75%;
         height: auto;
         margin-top: 1rem;
+        text-align: center;
     }
 
     .container__conteudo {
