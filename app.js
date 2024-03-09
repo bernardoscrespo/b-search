@@ -16,7 +16,7 @@ function exibirMensagemInicial() {
 exibirMensagemInicial();
 
 function regras() {
-    exibirTextoNaTela('headRegras', 'Regras do\njogo:');
+    exibirTextoNaTela('headRegras', 'Regras do<br>jogo:');
 }
 regras();
 
