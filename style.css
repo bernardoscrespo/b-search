@@ -94,13 +94,13 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 66px;
+    font-size: 76px;
     padding-bottom: 3rem;
 }
 
 h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 3rem;
 }
 
@@ -110,7 +110,7 @@ button {
 }
 
 .texto__paragrafo {
-    font-size: 21px;
+    font-size: 31px;
     font-weight: 400;
     margin-top: 20px;
 }
