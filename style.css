@@ -56,16 +56,16 @@ body::before {
 .container__botao {
     border-radius: 16px;
     background: #1875E8;
-    padding: 16px 24px;
+    padding: 12px 20px;
     width: 100%;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     border: none;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .container__texto {
-    margin: 16px 0 16px 0;
+    margin: 8px 0;
 }
 
 .container__texto-azul {
@@ -94,14 +94,14 @@ body::before {
 
 h1 {
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 44px;
-    padding-bottom: 3rem;
+    font-size: 36px;
+    padding-bottom: 2rem;
 }
 
 h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 28px;
-    padding-bottom: 3rem;
+    font-size: 20px;
+    padding-bottom: 2rem;
 }
 
 p,
@@ -110,7 +110,7 @@ button {
 }
 
 .texto__paragrafo {
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 0px;
     font-weight: 400;
 }
